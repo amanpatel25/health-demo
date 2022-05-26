@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../static/img/health.ico">
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+    *{
+    margin:0;
+    padding:0;
+    font-family: 'Josefin Sans', sans-serif;
+    }
+    html,
+    body,
+    header,
+    #intro {
+    height: 100%;
+    }
+    img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
+    </style>
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Health Care Application</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/diabetes">Diabetes</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/heart">Heart Diease</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/liver">Liver Disease</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/malaria">Malaria Disease</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/pneumonia">Pneumonia Disease</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--Mask-->
+      <div id="intro" class="container-fluid view ">
+        <h1 class="text-center text-capitalize pt-5">Welcome to the home page of the Application</h1>
+        <hr class="w-75 mx-auto pt-5">
+        <div class="row mb-5">
+          <div class="col-lg-6 col-md-6 col-12 my-auto">
+            <img src="{{ url_for('static', filename='healthcarelogo1.jpg') }}" class="float-left">
+
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <blockquote class="blockquote">
+              <p class="mb-0"><i>This is mainly based on as the application of the machine learning,meant to be employed in the remote and the downtrodden area.</i></p>
+            </blockquote>
+            <hr>
+            <h3>Overview</h3>
+            <blockquote class="blockquote">
+              <p class="mb-0">In todays time we see a lot of the shortage of the doctors in the world especially in India.A lot of people are suffering a lot without the help of the proper medical checkup.Also most of the cases many cases arise leading to dealth due to lack of timely medical checkup.</p>
+              <p>So to cope up with all of those problems this app is designed which would prove its benefits upto much extent.</p>
+            </blockquote>
+            <hr>
+            <h3>Application</h3>
+            <ul class="list-group">
+              <li class="list-group-item">To remove the dependencies on the doctors</li>
+              <li class="list-group-item">To help out the poor and helpless people with the normal medical checkup</li>
+              <li class="list-group-item">To help people avoid paying huge amount to the doctors unnecessarily</li>
+              <li class="list-group-item">To extend the role of the technology in the medical field</li>
+            </ul>
+            <h3 class="text-center text-capitalize pt-5">Creators</h3>
+            <blockquote class="blockquote text-center">
+              <p class="mb-0">Aman Patel, Ajinkya Padule, Aman Shaikh and Arsalan Patel</p>
+            </blockquote>
+            <div class="footer-copyright text-center py-3">© 2022 Copyright:</div>
+          </div>
+        </div>
+      </div>
+      <!--/.Mask-->
+    </header>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
